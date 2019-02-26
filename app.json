@@ -1,0 +1,41 @@
+{
+	"expo": {
+		"name": "Startup Start",
+		"description": "Template",
+		"slug": "StartupStart",
+		"privacy": "unlisted",
+		"sdkVersion": "30.0.0",
+		"platforms": ["ios", "android"],
+		"version": "1.0.0",
+		"orientation": "default",
+		"icon": "src/View/expo/assets/images/icon.png",
+		"splash": {
+			"image": "src/View/expo/assets/images/icon.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"enabled": false,
+			"fallbackToCacheTimeout": 0,
+			"checkAutomatically":"ON_LOAD"
+		},
+		"assetBundlePatterns": [
+			"**/*"
+		],
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.utoappia.testApp",
+			"buildNumber":"6"
+		},
+		"android": {
+			"versionCode":22,
+			"package": "com.utoappia.testApp",
+			"playStoreUrl":"https://play.google.com/store/apps/details?id=com.utoappia.testApp",
+			"permissions": [
+				"ACCESS_COARSE_LOCATION",
+				"ACCESS_FINE_LOCATION",
+			],
+			"icon": "src/View/expo/assets/images/icon.png"
+		}
+	}
+}
